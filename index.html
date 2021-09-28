@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Website-eola</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+<link rel="stylesheet" href="css/main.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+    <!--Navrbar-->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar" href="#">
+              <img src="img/logoeola.png" alt="" width="120" height="80" class="d-inline-block align-text-center">
+              <h6>Ecositema circular y colaborativo</h6>
+            </a>
+            <li class="navbar-nav me-auto mb-2 mb-lg-0" >
+              <a class="nav-link active d-inline-block align-text-center"  aria-current="page" href="#" >Mercado verde</a>
+            </li>
+            <li class="navbar-nav me-auto mb-2 mb-lg-0">
+              <a class="nav-link active dropdown-toggle d-inline-block align-text-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Empresas
+              </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Aliados</a></li>
+                  <li><a class="dropdown-item" href="#">Inversión</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Otro</a></li>
+                </ul>
+            </li>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+
+                <li class="nav-item">
+                  <a class="btn btn-primary" aria-current="page" href="#">Iniciar sesión</a>
+                </li>
+              </ul>
+
+                  <!--buscador
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  -->
+              </div>
+            </div>
+          </nav>
+
+    <!--segundo Navrbar-->
+
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-7">
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link py-3" aria-current="page" href="#"><img src="img/house.svg" class="px-2" width="50"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-3" aria-current="page" href="#"><img src="img/electronics.png"  width="40"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active py-3" href="#"><img src="img/clipart4330520.png"  width="40"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-3" href="#"><img src="img/Foodicon2.png" width="40" ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link py-3" href="#">Otros</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+<!--contenido del Dashboard--->
+
+          <div id="dash1" class="container-fluid">
+            <div class="row">
+              <div class="col-2">
+                <div class="row justify-content-end">
+                  <div class="col-10">
+                    <div class="row py-5">
+                      <h5 class="">Actores del ecosistema</h5>
+                      <a href="#" class="link-primary">Únete y crea tu perfil</a>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-end">
+                  <div class="col-9">
+                    <div class="d-flex align-items-center">
+                    <div class="nav  nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+                      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true" data-bs-toggle="tooltip" data-bs-placement="top" title="Empresa manufacturera/productora">E</button>
+                      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"  data-bs-toggle="tooltip" data-bs-placement="top" title="Materia prima e insumos">MP</button>
+                      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false" data-bs-toggle="tooltip" data-bs-placement="top" title="Recuperador de valor">RV</button>
+                      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" data-bs-toggle="tooltip" data-bs-placement="top" title="Mercado">M</button>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-10">
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="row px-3">
+                      <div class="col-4">
+                        <div class="row justify-content-end">
+                          <div class="col-12 py-5">
+                            <div class="row">
+                              <h2 class="">Tablero de Control</h2>
+
+                            </div>
+                            <div class="row py-1">
+                              <div class="shadow p-2 bg-transparent rounded">
+                                <p>Incrementa la eficiencia en tu organización</p>
+
+                              </div>
+
+                            </div>
+                            <div class="row py-1">
+                              <div class="shadow p-2 bg-body rounded">
+                                <p>Rediseña tu producto</p>
+
+                              </div>
+
+                            </div>
+                            <div class="row py-1">
+                              <div class="shadow p-2 bg-body rounded">
+                                <p>Rediseña tu preceso productivo</p>
+
+
+                              </div>
+
+                            </div>
+                            <div class="row py-1">
+                              <div class="shadow p-2 bg-body rounded">
+                                <p>Comunicate con tu mercado</p>
+
+
+                              </div>
+                            </div>
+
+                          </div>
+
+                        </div>
+                      </div>
+                      <div  class="col-8">
+                        <div class="row">
+                          <div class="col-8">
+                            <img src="img/modeloeola2.png" style="width: 100%;">
+                          </div>
+                          <div class="col-4">
+                            <div class="col-5 text-center">
+                              <div class="shadow p-3 bg-transparent rounded">
+                                <img src="img/empresa-g.png" width="150"alt="d-block">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+                    <div class="row">
+                      <div class="sidebar">
+
+                      </div>
+                      <div class="col-4 px-3 py-3">
+                        <h6 class="px-3">Adopta una economía circular a tu ritmo</h6>
+                        <div id="list-example" class="list-group">
+                          <a class="list-group-item list-group-item-action" href="#list-item-1">Transforma tu organización</a>
+                          <a class="list-group-item list-group-item-action" href="#list-item-2">Encuentra proveedores estretégicos</a>
+                          <a class="list-group-item list-group-item-action" href="#list-item-3">Comunicate con tu mercado</a>
+                        </div>
+                        <div class="row py-2">
+                          <div class="col">
+                            <div class="shadow p-2 bg-body rounded text-center">
+                              <h6>Cambio climático</h6>
+
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="shadow p-2 bg-body rounded text-center">
+                              <h6>Bioeconomía</h6>
+
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                      <div class="col-8 py-4">
+                        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                          <h4 id="list-item-1">
+                            <div class="row justify-content-start">
+                              <div class="col-2 py-3">
+                                <img src="img/e-1.png" width="100"alt="">
+                              </div>
+                              <div class="col-10">
+                                <p class="py-3">
+                                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Tu producto</a>
+                                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Tu proceso productivo</button>
+                                </p>
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                      <div class="card card-body">
+                                        - Elimina el exceso de material en tu producto.
+                                        - Diseña un producto que consuma recursos de forma eficiente.
+                                        - Promueve el diseño modular para desensamblar.
+                                        - Incrementa el ciclo de vida de los productos.
+                                        - Impresión 3D. Innova y sobresale en nuevos mercados.
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                      <div class="card card-body">
+                                        - Gestiona la información de tu proceso productivo.
+                                        - Busca aliados y sinergias con empresas que necesiten tu material descartado, o viceversa.
+                                        - Incorpora materiales y partes recuperadas al proceso productivo.
+                                        - Elimina el desperdicio del proceso productivo.
+                                        - Cambia a fuentes de energía alternativa.
+                                        - Construcción de una logística inversa. Optimiza el flujo de materiales.
+                                        - Promueve la prefabricación (sector construcción).
+
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </h4>
+                          <p>...</p>
+                          <h4 id="list-item-2">
+                            <div class="row justify-content-start">
+                              <div class="col-2 py-3">
+                                <img src="E-1.png" width="100"alt="">
+                              </div>
+                              <div class="col-10">
+                                <p class="py-3">
+                                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Tu producto</a>
+                                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Tu proceso productivo</button>
+                                </p>
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                      <div class="card card-body">
+                                        - Elige y remplaza materias e insumos por unos más sostenibles, renovables, reciclados, reciclables, no tóxicos, bajos en emisiones.
+                                        - Si aplica, elige proveedores para la producción autosuficiente de Energía de tu producto.
+                                        - Elige proveedores con esquemas de recuperación posconsumo.
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </h4>
+                <p>...</p>
+                <h4 id="list-item-3">
+                  <div class="row justify-content-start">
+                    <div class="col-2 py-3">
+                      <img src="E-1.png" width="100"alt="">
+                    </div>
+                    <div class="col-10">
+                      <p class="py-3">
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Tu producto</a>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Tu proceso productivo</button>
+                      </p>
+                      <div class="row">
+                        <div class="col">
+                          <div class="collapse multi-collapse" id="multiCollapseExample1">
+                            <div class="card card-body">
+                              - Incentiva la extensión de uso de los productos.
+                              - Promueve el etiquetado en sostenibilidad.
+
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </h4>
+                <p>...</p>
+
+                <p>...</p>
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+                      <div class="row justify-content-start">
+                        <div class="col-3 py-2">
+
+                              <img src="E-1.png" width="100"alt="">
+
+
+                        </div>
+
+                        <div class="col-9 px-4">
+                          <div class="row py-2">
+                            <div class="shadow p-3 bg-body rounded">
+                              <h6>Comunicate con tu mercado</h6>
+
+                            </div>
+                          </div>
+
+                        </div>
+
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                  <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+          </div>
+
+
+
+
+
+
+<!-- Scripts de java-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+  </body>
+</html>
