@@ -7,6 +7,64 @@ body {
   --secondary: ;
 }
 
+#navbar1{
+  height: 10vh;
+  background-color: hsl(216, 55%, 98%);
+}
+
+#navbar2{
+  
+  height: 9vh;
+  ;
+}
+
+#tablero{
+  position: relative;
+  margin-left: -200px;
+}
+
+#figuratablero{
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+#tablero2{
+  margin-left: -255px;
+}
+
+
+
+#alert{
+  width: 100%;
+  height: 150vh;
+
+  background-image: url("../img/piedepagina2.png")
+   no-repeat center center / cover;
+  background-position: center;
+  position: relative;
+  margin-top: -50px;
+  margin-bottom:;
+
+}
+
+.logotipo{
+  width: 70px;
+  background-color: hsl(216, 55%, 98%);
+}
+
+#contacto{
+  background-color: hsl(211, 86%, 39%);
+}
+
+
+#footer{
+  background-color: hsl(0, 0%, 94%);
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 0px;
+
+}
+
 
 #dash1{
   width: 100%;
