@@ -8,7 +8,7 @@ body {
 }
 
 #navbar1{
-  height: 10vh;
+
 }
 
 #biodbc{
@@ -23,7 +23,7 @@ body {
 }
 
 #tablero{
-  position: relative;
+  position: fixed;
   margin-left: -180px;
 }
 
